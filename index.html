@@ -27,15 +27,15 @@
   .bio {
 	text-align: left;
     font-size: 35px;
-    line-height: 1.6;
+    line-height: 1.4;
     color: #ffffff;
-    margin-bottom: 0;
-    background-color: rgba(0, 0, 0, 0.5); /* Adding slight transparency to the bio section */
-    padding: 20px;
-    border-radius: 35px;
+    margin-bottom: -0;
+    background-color: rgba(25, 0, 0, 0.5);
+	border-radius: 35px;
 	box-shadow: 0px 4px 8px rgba(0, 0, 0, 1);
-    border: 2px solid #e74c3c; /* Adding red stroke around the bio section */
-    backdrop-filter: blur(20px); /* Applying the blur effect to the bio tile */
+	border: 2px solid #e74c3c; /* Red stroke around the tiles */
+	backdrop-filter: blur(15px); /* Applying the blur effect to the tiles */
+	padding: 20px;
   }
   .tiles-container {
     display: flex;
@@ -46,13 +46,13 @@
     width: 300px;
     padding: 20px;
 	padding-top: 0;
-    background-color: rgba(0, 0, 0, 0.5);
-    border-radius: 35px;
-    margin: 10px;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 1);
-    border: 2px solid #e74c3c; /* Red stroke around the tiles */
-    text-align: center;
-    backdrop-filter: blur(20px); /* Applying the blur effect to the tiles */
+    background-color: rgba(25, 0, 0, 0.5);
+				border-radius: 35px;
+				margin: 10px;
+				box-shadow: 0px 4px 8px rgba(0, 0, 0, 1);
+				border: 2px solid #e74c3c; /* Red stroke around the tiles */
+				text-align: center;
+				backdrop-filter: blur(15px); /* Applying the blur effect to the tiles */
   }
   .tile-content {
     margin-top: 10px;
@@ -63,11 +63,13 @@
     font-size: 25px;
     line-height: 1.6;
     color: #e74c3c;
-    background-color: rgba(0, 0, 0, 0.5); /* Adding slight transparency to the bio section */
-    border-radius: 35px;
-	box-shadow: 0px 4px 8px rgba(0, 0, 0, 1);
-    border: 2px solid #e74c3c; /* Adding red stroke around the bio section */
-    backdrop-filter: blur(20px); /* Applying the blur effect to the bio tile */
+    background-color: rgba(25, 0, 0, 0.5);
+				border-radius: 35px;
+				margin: 10px;
+				box-shadow: 0px 4px 8px rgba(0, 0, 0, 1);
+				border: 2px solid #e74c3c; /* Red stroke around the tiles */
+				text-align: center;
+				backdrop-filter: blur(15px); /* Applying the blur effect to the tiles */
 	margin: auto;
 	text-decoration: none;
 	margin-bottom: 10px;
@@ -93,7 +95,7 @@
   color: #FF0000;
   font-size: 80px;
   margin: -70px;
-  text-shadow: 0px 4px 8px rgba(0, 0, 0, 1);
+  text-shadow: 0px 4px 8px rgba(0, 0, 0, 2);
   }
   
 </style>
@@ -106,7 +108,7 @@
 	</div>
 	
   <div class="bio">
-    <p>> Counter-Strike de_nuke enjoyer <br/> > EDM & Hip-Hop Producer <br/> > Currently learning AI content generating (Stable-diffusion, RVC, SVC)<br/> > Big Valve games fan <br/ >  > Aquarius is the best dude in the world</p>
+    <p>> Counter-Strike de_nuke enjoyer <br/> > EDM & Hip-Hop Producer <br/> > Currently learning AI-generated content (Stable-diffusion, RVC, SVC)<br/> > Big Valve games fan <br/ >  > Aquarius is the best dude in the world</p>
   </div>
   <div class="tiles-container">
     <div class="tile">
